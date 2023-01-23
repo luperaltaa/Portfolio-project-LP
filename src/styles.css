@@ -1,11 +1,55 @@
-h1 {
-  color: black;
-  font-family: "Playfair Display", serif;
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #212121;
+  --third-color: #50717b;
+  --forth-color: #3a4042;
+  --hover-color: #8ecccc;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+h1 h2 h3 h4 h5 h6 {
+  color: var(--primary-color);
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
+h1 {
+  font-size: 96px;
+}
 p {
-  color: black;
-
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: lighter;
+}
+.hero {
+  background: rgb(32, 32, 32);
+  color: var(--primary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: lighter;
+}
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
+.btn-primary {
+  background: var(--primary-color);
+  border-radius: 50px;
+  border-color: var(--secondary-color);
+  padding: 18px 30px;
+  gap: 10px;
+  font-size: 14px;
+  font-family: var(--default-font-family);
+  line-height: 17px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: var(--secondary-color);
+  width: 200px;
+}
+.btn-primary:hover {
+  background: var(--hover-color);
+  border-color: var(--hover-color);
 }
