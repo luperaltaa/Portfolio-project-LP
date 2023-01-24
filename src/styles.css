@@ -102,3 +102,10 @@ p {
 .meLogo {
   max-width: 40px;
 }
+.projectHeading {
+  color: var(--primary-color);
+  font-size: 60px;
+  text-align: center;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+}
