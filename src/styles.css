@@ -87,3 +87,12 @@ p {
   border-color: var(--hover-color);
   color: var(--primary-color);
 }
+
+.about-me h1 {
+  color: var(--primary-color);
+  font-size: 40px;
+}
+.logo {
+  color: var(--hover-color);
+  font-size: 20px;
+}
