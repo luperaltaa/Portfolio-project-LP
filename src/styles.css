@@ -35,6 +35,9 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
+.hero2 {
+  padding: 160px 20px;
+}
 .hero p {
   font-size: 36px;
   font-weight: lighter;
