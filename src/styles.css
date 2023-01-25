@@ -109,3 +109,12 @@ p {
   font-family: var(--heading-font-family);
   font-weight: 400;
 }
+.contact-type {
+  font-size: 16px;
+  color: var(--third-color);
+  font-family: var(--heading-font-family);
+}
+.contact-info {
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+}
