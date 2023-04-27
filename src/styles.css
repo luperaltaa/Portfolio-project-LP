@@ -33,10 +33,10 @@ p {
   background: rgb(32, 32, 32);
   color: var(--primary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 50px 20px;
 }
 .about {
-  padding: 160px 20px;
+  padding: 50px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -96,6 +96,10 @@ p {
   font-size: 40px;
 }
 .logo {
+  font-size: 20px;
+}
+
+.logo a {
   color: var(--hover-color);
   font-size: 20px;
 }
@@ -118,9 +122,12 @@ p {
   font-family: var(--heading-font-family);
   color: var(--primary-color);
 }
-.icono-index {
-  color: var(--hover-color);
+.icon-index {
   font-size: 20px;
   display: flex;
   justify-content: space-evenly;
+}
+.icon-index a {
+  color: var(--hover-color);
+  text-decoration: none;
 }
